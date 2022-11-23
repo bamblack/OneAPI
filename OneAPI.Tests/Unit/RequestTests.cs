@@ -1,14 +1,9 @@
-﻿using OneAPI.Models.API;
-using OneAPI.Models.Lib;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OneAPI.SDK.Models.API;
+using OneAPI.SDK.Models.Lib;
 
 namespace OneAPI.Tests.Unit
 {
-    
+
     public class RequestTests
     {
         [TestCase]
@@ -31,7 +26,7 @@ namespace OneAPI.Tests.Unit
 
             Assert.That(uri, Is.EqualTo($"{nameof(Book)}?sort=name:asc"));
         }
-
+         
         [TestCase]
         public void ItBuildsUrlWithDescSortParamsCorrectly()
         {

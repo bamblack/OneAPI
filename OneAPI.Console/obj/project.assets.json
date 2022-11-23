@@ -11,6 +11,19 @@
           "lib/netstandard2.0/Apparatus.AOT.Reflection.Core.dll": {}
         }
       },
+      "CommandLineParser/2.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -646,7 +659,7 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "OneAPI/1.0.0": {
+      "OneAPI.SDK/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -655,10 +668,10 @@
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "bin/placeholder/OneAPI.dll": {}
+          "bin/placeholder/OneAPI.SDK.dll": {}
         },
         "runtime": {
-          "bin/placeholder/OneAPI.dll": {}
+          "bin/placeholder/OneAPI.SDK.dll": {}
         }
       }
     }
@@ -678,6 +691,28 @@
         "lib/netstandard2.0/Apparatus.AOT.Reflection.Core.dll",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "CommandLineParser/2.9.1": {
+      "sha512": "OE0sl1/sQ37bjVsPKKtwQlWDgqaxWgtme3xZz7JssWUzg5JpMIyHgCTY9MVMxOg48fJ1AgGT3tgdH5m/kQ5xhA==",
+      "type": "package",
+      "path": "commandlineparser/2.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CommandLine20.png",
+        "License.md",
+        "README.md",
+        "commandlineparser.2.9.1.nupkg.sha512",
+        "commandlineparser.nuspec",
+        "lib/net40/CommandLine.dll",
+        "lib/net40/CommandLine.xml",
+        "lib/net45/CommandLine.dll",
+        "lib/net45/CommandLine.xml",
+        "lib/net461/CommandLine.dll",
+        "lib/net461/CommandLine.xml",
+        "lib/netstandard2.0/CommandLine.dll",
+        "lib/netstandard2.0/CommandLine.xml"
       ]
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
@@ -1605,18 +1640,19 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "OneAPI/1.0.0": {
+    "OneAPI.SDK/1.0.0": {
       "type": "project",
-      "path": "../OneAPI/OneAPI.csproj",
-      "msbuildProject": "../OneAPI/OneAPI.csproj"
+      "path": "../OneAPI/OneAPI.SDK.csproj",
+      "msbuildProject": "../OneAPI/OneAPI.SDK.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "CommandLineParser >= 2.9.1",
       "Microsoft.Extensions.Hosting >= 7.0.0",
       "Microsoft.Extensions.Hosting.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Http >= 7.0.0",
-      "OneAPI >= 1.0.0"
+      "OneAPI.SDK >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1625,9 +1661,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\OneAPI\\OneAPI.Console\\OneAPI.Console.csproj",
-      "projectName": "OneAPI.Console",
-      "projectPath": "C:\\Projects\\OneAPI\\OneAPI.Console\\OneAPI.Console.csproj",
+      "projectUniqueName": "C:\\Projects\\OneAPI\\OneAPI.Console\\OneAPI.CLI.csproj",
+      "projectName": "OneAPI.CLI",
+      "projectPath": "C:\\Projects\\OneAPI\\OneAPI.Console\\OneAPI.CLI.csproj",
       "packagesPath": "C:\\Users\\bambl\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\OneAPI\\OneAPI.Console\\obj\\",
       "projectStyle": "PackageReference",
@@ -1646,8 +1682,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.csproj": {
-              "projectPath": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.csproj"
+            "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.SDK.csproj": {
+              "projectPath": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.SDK.csproj"
             }
           }
         }
@@ -1662,6 +1698,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "CommandLineParser": {
+            "target": "Package",
+            "version": "[2.9.1, )"
+          },
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[7.0.0, )"

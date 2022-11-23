@@ -1,0 +1,12 @@
+C:\Projects\OneAPI\OneAPI\bin\Debug\net7.0\OneAPI.SDK.deps.json
+C:\Projects\OneAPI\OneAPI\bin\Debug\net7.0\OneAPI.SDK.dll
+C:\Projects\OneAPI\OneAPI\bin\Debug\net7.0\OneAPI.SDK.pdb
+C:\Projects\OneAPI\OneAPI\obj\Debug\net7.0\OneAPI.SDK.csproj.AssemblyReference.cache
+C:\Projects\OneAPI\OneAPI\obj\Debug\net7.0\OneAPI.SDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\OneAPI\OneAPI\obj\Debug\net7.0\OneAPI.SDK.AssemblyInfoInputs.cache
+C:\Projects\OneAPI\OneAPI\obj\Debug\net7.0\OneAPI.SDK.AssemblyInfo.cs
+C:\Projects\OneAPI\OneAPI\obj\Debug\net7.0\OneAPI.SDK.csproj.CoreCompileInputs.cache
+C:\Projects\OneAPI\OneAPI\obj\Debug\net7.0\OneAPI.SDK.dll
+C:\Projects\OneAPI\OneAPI\obj\Debug\net7.0\refint\OneAPI.SDK.dll
+C:\Projects\OneAPI\OneAPI\obj\Debug\net7.0\OneAPI.SDK.pdb
+C:\Projects\OneAPI\OneAPI\obj\Debug\net7.0\ref\OneAPI.SDK.dll

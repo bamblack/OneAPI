@@ -580,7 +580,7 @@
           }
         }
       },
-      "OneAPI/1.0.0": {
+      "OneAPI.SDK/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -589,10 +589,10 @@
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "bin/placeholder/OneAPI.dll": {}
+          "bin/placeholder/OneAPI.SDK.dll": {}
         },
         "runtime": {
-          "bin/placeholder/OneAPI.dll": {}
+          "bin/placeholder/OneAPI.SDK.dll": {}
         }
       }
     }
@@ -1819,10 +1819,10 @@
         "version.txt"
       ]
     },
-    "OneAPI/1.0.0": {
+    "OneAPI.SDK/1.0.0": {
       "type": "project",
-      "path": "../OneAPI/OneAPI.csproj",
-      "msbuildProject": "../OneAPI/OneAPI.csproj"
+      "path": "../OneAPI/OneAPI.SDK.csproj",
+      "msbuildProject": "../OneAPI/OneAPI.SDK.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1832,7 +1832,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
-      "OneAPI >= 1.0.0",
+      "OneAPI.SDK >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -1863,8 +1863,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.csproj": {
-              "projectPath": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.csproj"
+            "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.SDK.csproj": {
+              "projectPath": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.SDK.csproj"
             }
           }
         }

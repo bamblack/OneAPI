@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sN0k6TuOatxGtSRqW+KMXVLHXllwzPdfdT1jsYLeWK+mN2tBpwolt3Fd9fNh7qp3u3DPr2yi/RQaEQRx5F+Mqw==",
+  "dgSpecHash": "JYbIewquYO9Ru78vEnGNlfqLXUTA1/Z1quNV6ig2Sgqbu3jN30qLgoYCxMv+CJ5Rg9fHlg5aG7PZALuVEfXMKQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\OneAPI\\OneAPI.Console\\OneAPI.Console.csproj",
+  "projectFilePath": "C:\\Projects\\OneAPI\\OneAPI.Console\\OneAPI.CLI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bambl\\.nuget\\packages\\apparatus.aot.reflection\\1.0.0\\apparatus.aot.reflection.1.0.0.nupkg.sha512",
+    "C:\\Users\\bambl\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512",
     "C:\\Users\\bambl\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\bambl\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\bambl\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.0\\microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",

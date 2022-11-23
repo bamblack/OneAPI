@@ -1,14 +1,11 @@
-﻿using OneAPI.Models.Lib;
-using System;
+﻿using OneAPI.SDK.Models.Lib;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OneAPI.Contracts
+namespace OneAPI.SDK.Contracts
 {
-    public interface ISDK
+    public interface ITheOneService
     {
         void Configure(string authKey);
         /// <summary>

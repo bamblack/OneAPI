@@ -1,29 +1,21 @@
 ﻿using NSubstitute;
-using NSubstitute.Extensions;
-using OneAPI.Contracts;
-using OneAPI.Models.API;
-using OneAPI.Models.Lib;
-using OneAPI.Services;
+using OneAPI.SDK.Contracts;
+using OneAPI.SDK.Models.API;
+using OneAPI.SDK.Models.Lib;
 using OneAPI.Tests.Lib;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OneAPI.Tests.Unit
 {
     public class GivenANewSDK
     {
         protected readonly IHttpClientFactory httpClientFactory;
-        protected readonly ISDK sdk;
+        protected readonly ITheOneService sdk;
 
         public GivenANewSDK()
         {
             this.httpClientFactory = Substitute.For<IHttpClientFactory>();
 
-            this.sdk = new SDK(httpClientFactory);
+            this.sdk = new SDK.Services.TheOneService(httpClientFactory);
         }
 
         [SetUp]

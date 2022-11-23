@@ -455,9 +455,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.csproj",
-      "projectName": "OneAPI",
-      "projectPath": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.csproj",
+      "projectUniqueName": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.SDK.csproj",
+      "projectName": "OneAPI.SDK",
+      "projectPath": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.SDK.csproj",
       "packagesPath": "C:\\Users\\bambl\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\OneAPI\\OneAPI\\obj\\",
       "projectStyle": "PackageReference",

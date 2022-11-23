@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace OneAPI.Models.Lib
+namespace OneAPI.SDK.Models.Lib
 {
     public class Request<T>
     {

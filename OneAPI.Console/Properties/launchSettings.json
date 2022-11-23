@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "Book All Sort By Name": {
+      "commandName": "Project",
+      "commandLineArgs": "-t Book -p -a -s name"
+    },
+    "Book Limit 1 Sort By Name": {
+      "commandName": "Project",
+      "commandLineArgs": "-t Book -p -l 1 -s name"
+    }
+  }
+}

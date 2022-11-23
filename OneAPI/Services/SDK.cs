@@ -1,23 +1,22 @@
 ﻿using Newtonsoft.Json;
-using OneAPI.Contracts;
-using OneAPI.Models.Lib;
+using OneAPI.SDK.Contracts;
+using OneAPI.SDK.Models.Lib;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OneAPI.Services
+namespace OneAPI.SDK.Services
 {
-    public class SDK : ISDK
+    public class TheOneService : ITheOneService
     {
         private const string baseUri = "https://the-one-api.dev/v2/";
         private string authKey;
         private readonly IHttpClientFactory httpClientFactory;
 
-        public SDK
+        public TheOneService
         (
             IHttpClientFactory httpClientFactory
         )

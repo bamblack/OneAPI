@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WIebMszsGjAtQpiUk3vBQp+LX/lxD5HFL4Zu917pw0ZIcRqoZVl+hKF+PeTYE4gAVoxP03/YfUuTZsDBIcDXmA==",
+  "dgSpecHash": "E++94gTfp3FYd71yEonZAxoQ+cMK9abA4BR3P6mpheLDur0sLkc8z+wdOmIqodSTGaPGBES1tRsCATzWgZqgeg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.csproj",
+  "projectFilePath": "C:\\Projects\\OneAPI\\OneAPI\\OneAPI.SDK.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bambl\\.nuget\\packages\\apparatus.aot.reflection\\1.0.0\\apparatus.aot.reflection.1.0.0.nupkg.sha512",
     "C:\\Users\\bambl\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
